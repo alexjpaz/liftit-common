@@ -23,5 +23,7 @@ describe('common', function() {
 
     plates.list.should.eql([2,1,1,0,1]);
 
+    common.plates(315).list.should.eql([3,0,0,0,0]);
+
   });
 });
